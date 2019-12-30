@@ -1,0 +1,37 @@
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.nav__list-item {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.nav__list-item i {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #848484;
+}
+
+.nav__list-name {
+  color: #848484;
+}
+
+.nav__list-link {
+  text-align: center;
+}
+
+.nav__list-item:nth-child(1) .nav__list-name,
+.nav__list-item:nth-child(1) i {
+  color: white;
+}

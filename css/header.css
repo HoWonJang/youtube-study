@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  margin-left: 14px;
+  margin-right: -4px;
+  margin-top: 50px;
+}
+
+.header .header__header-title {
+  font-size: 20px;
+}
+
+.header__header-title i {
+  color: #ff0000;
+  font-size: 25px;
+}
+
+.header__header-title-name {
+  letter-spacing: -2px;
+  font-weight: bold;
+}
+
+.header .header__header2 i {
+  margin-right: 21px;
+}

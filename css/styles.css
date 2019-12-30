@@ -1,0 +1,15 @@
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "video.css";
+@import "nav.css";
+* {
+  box-sizing: border-box;
+  background-color: #282828;
+  color: #fcfcfc;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
